@@ -37,7 +37,7 @@ class="alert alert-info">
         <div class="col">
             <span
                 *ngFor="let translation of pais.translations | keyvalue"
-            class="badge bg-primary mr-1">{{translation | json}}</span>
+            class="badge bg-primary mr-1">{{translation.value}}</span>
         </div>
     </div>
 

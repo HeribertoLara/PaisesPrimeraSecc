@@ -1,7 +1,7 @@
 <h2>Por capital</h2>
 <hr>
 
-<div class="row">
+<div class="row animate__animated animate__bounce">
     <div class="col">
         <app-pais-input
             (onEnter)="buscar( $event )"
@@ -19,7 +19,7 @@
 </div>
 
 <div *ngIf="paises.length > 0" class="row">
-    <div class="col">
+    <div class="col ">
 
         <app-pais-tabla [paises]="paises"></app-pais-tabla>
 
